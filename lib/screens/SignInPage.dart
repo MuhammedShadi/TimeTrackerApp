@@ -1,13 +1,13 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:timetracker/fireBaseMethods.dart';
+import 'package:timetracker/fireBase/fireBaseMethods.dart';
 import 'package:timetracker/widgets/customesButtons.dart';
 
 import '../theme/theme.dart';
 
 class SignInPage extends StatefulWidget {
   const SignInPage({Key? key}) : super(key: key);
-
   @override
   State<SignInPage> createState() => _SignInPageState();
 }
@@ -142,7 +142,10 @@ class _SignInPageState extends State<SignInPage> {
                 ),
               ),
               borderRadius: 10,
-              onPressed: fireBaseMethods.signInAnonymously),
+              onPressed: (){
+                fireBaseMethods.signInAnonymously();
+
+              }),
         ],
       ),
     );
