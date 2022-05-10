@@ -1,7 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:timetracker/screens/screens.dart';
+import 'package:timetracker/screens/landingPage.dart';
 import 'package:timetracker/theme/theme.dart';
 
 Future<void> main() async{
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Time Tracker ',
         theme: theme.getTheme(),
-        home: const SignInPage(),
+        home: const LandingPage(),
       );
     });
   }
