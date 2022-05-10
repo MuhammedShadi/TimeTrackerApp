@@ -1,0 +1,15 @@
+com.example.timetracker.app-jetified-annotation-experimental-1.1.0-0 /Users/gebruiker/.gradle/caches/transforms-3/12204ae2b8acba0549b11c36ccdfcf4f/transformed/jetified-annotation-experimental-1.1.0/res
+com.example.timetracker.app-jetified-firebase-common-20.1.1-1 /Users/gebruiker/.gradle/caches/transforms-3/6f2a7e2a0c69ddd9a3e163c662f78851/transformed/jetified-firebase-common-20.1.1/res
+com.example.timetracker.app-jetified-window-1.0.0-beta04-2 /Users/gebruiker/.gradle/caches/transforms-3/9e9b3e5992a8afbc278572c80a2e58ba/transformed/jetified-window-1.0.0-beta04/res
+com.example.timetracker.app-jetified-window-java-1.0.0-beta04-3 /Users/gebruiker/.gradle/caches/transforms-3/b376b8d0855cac8c684a847c3e1e36bf/transformed/jetified-window-java-1.0.0-beta04/res
+com.example.timetracker.app-jetified-play-services-basement-18.0.0-4 /Users/gebruiker/.gradle/caches/transforms-3/bfb0ef8d204359befedb0639b42583fd/transformed/jetified-play-services-basement-18.0.0/res
+com.example.timetracker.app-core-1.6.0-5 /Users/gebruiker/.gradle/caches/transforms-3/cc0623eba699dd9d1295dd727fcc38bd/transformed/core-1.6.0/res
+com.example.timetracker.app-debug-6 /Users/gebruiker/Documents/GitHub/TimeTrackerApp/android/app/src/debug/res
+com.example.timetracker.app-main-7 /Users/gebruiker/Documents/GitHub/TimeTrackerApp/android/app/src/main/res
+com.example.timetracker.app-google-services-8 /Users/gebruiker/Documents/GitHub/TimeTrackerApp/build/app/generated/res/google-services/debug
+com.example.timetracker.app-pngs-9 /Users/gebruiker/Documents/GitHub/TimeTrackerApp/build/app/generated/res/pngs/debug
+com.example.timetracker.app-resValues-10 /Users/gebruiker/Documents/GitHub/TimeTrackerApp/build/app/generated/res/resValues/debug
+com.example.timetracker.app-rs-11 /Users/gebruiker/Documents/GitHub/TimeTrackerApp/build/app/generated/res/rs/debug
+com.example.timetracker.app-mergeDebugResources-12 /Users/gebruiker/Documents/GitHub/TimeTrackerApp/build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.example.timetracker.app-mergeDebugResources-13 /Users/gebruiker/Documents/GitHub/TimeTrackerApp/build/app/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.example.timetracker.app-merged_res-14 /Users/gebruiker/Documents/GitHub/TimeTrackerApp/build/app/intermediates/merged_res/debug
