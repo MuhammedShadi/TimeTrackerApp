@@ -4,7 +4,7 @@ import 'package:provider/provider.dart';
 import 'package:timetracker/screens/screens.dart';
 import 'package:timetracker/theme/theme.dart';
 
-void main() async{
+Future<void> main() async{
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   runApp(MultiProvider(providers: [

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:timetracker/fireBaseMethods.dart';
 import 'package:timetracker/widgets/customesButtons.dart';
 
 import '../theme/theme.dart';
@@ -13,7 +14,7 @@ class SignInPage extends StatefulWidget {
 
 class _SignInPageState extends State<SignInPage> {
   bool modelValue = true;
-
+  FireBaseMethods fireBaseMethods = FireBaseMethods();
   @override
   Widget build(BuildContext context) {
     final ThemeChanger _themeChanger = Provider.of<ThemeChanger>(context);
@@ -141,7 +142,7 @@ class _SignInPageState extends State<SignInPage> {
                 ),
               ),
               borderRadius: 10,
-              onPressed: () {}),
+              onPressed: fireBaseMethods.signInAnonymously),
         ],
       ),
     );
