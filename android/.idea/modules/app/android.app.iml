@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":app" external.linked.project.path="$MODULE_DIR$/../../../app" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="android" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":app" />
+        <option name="LAST_SUCCESSFUL_SYNC_AGP_VERSION" value="7.1.3" />
+        <option name="LAST_KNOWN_AGP_VERSION" value="7.2.0" />
+      </configuration>
+    </facet>
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="4" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../../../build/app/tmp/kotlin-classes/debug" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/transforms-3/1ccbdbca096bc0d8e5202209840db5cc/transformed/jetified-flutter_embedding_debug-1.0.0-57d3bac3dd5cb5b0e464ab70e7bc8a0d8cf083ab.jar:/Users/gebruiker/.gradle/caches/transforms-3/c3dc1d816e3ac714c99a8b8724152878/transformed/jetified-armeabi_v7a_debug-1.0.0-57d3bac3dd5cb5b0e464ab70e7bc8a0d8cf083ab.jar:/Users/gebruiker/.gradle/caches/transforms-3/7490d0e969a73a99285d343e933c7db4/transformed/jetified-arm64_v8a_debug-1.0.0-57d3bac3dd5cb5b0e464ab70e7bc8a0d8cf083ab.jar:/Users/gebruiker/.gradle/caches/transforms-3/503b732fa3e1ba50b5c3f9646a820b4c/transformed/jetified-x86_64_debug-1.0.0-57d3bac3dd5cb5b0e464ab70e7bc8a0d8cf083ab.jar:/Users/gebruiker/.gradle/caches/transforms-3/cbcfa87f49f572c9bac08680cd7afc17/transformed/jetified-x86_debug-1.0.0-57d3bac3dd5cb5b0e464ab70e7bc8a0d8cf083ab.jar:/Users/gebruiker/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common-java8/2.2.0/cd3478503da69b1a7e0319bd2d1389943db9b364/lifecycle-common-java8-2.2.0.jar:/Users/gebruiker/.gradle/caches/transforms-3/702fd0f01b46623392d6988ccb95a632/transformed/jetified-firebase-analytics-21.0.0-api.jar:/Users/gebruiker/.gradle/caches/transforms-3/50aa0f4671bbe3425b39d5c0b87d4919/transformed/jetified-play-services-measurement-21.0.0-api.jar:/Users/gebruiker/.gradle/caches/transforms-3/9304f6acf8e59b50d97420c323a06d3b/transformed/jetified-play-services-measurement-api-21.0.0-api.jar:/Users/gebruiker/.gradle/caches/transforms-3/0a0bc75595717c27f9c16fa66b7200ad/transformed/jetified-play-services-measurement-sdk-21.0.0-api.jar:/Users/gebruiker/.gradle/caches/transforms-3/e82cb6ca1871dedaeffd79bc96386586/transformed/jetified-play-services-measurement-impl-21.0.0-api.jar:/Users/gebruiker/.gradle/caches/transforms-3/e56ad5d664f77cd7f9940843219ddb16/transformed/jetified-play-services-ads-identifier-18.0.0-api.jar:/Users/gebruiker/.gradle/caches/transforms-3/8d0818ab60b879352143a253e7ab8e6c/transformed/jetified-play-services-measurement-sdk-api-21.0.0-api.jar:/Users/gebruiker/.gradle/caches/transforms-3/d0dca09f3a339ae8aa3c5379ce9e574a/transformed/jetified-play-services-measurement-base-21.0.0-api.jar:/Users/gebruiker/.gradle/caches/transforms-3/82c0c23dad5344947940a79e0f50916d/transformed/jetified-play-services-stats-17.0.2-api.jar:/Users/gebruiker/.gradle/caches/transforms-3/a5c62051e4d93f8e9424752ac9487c8d/transformed/jetified-firebase-installations-17.0.1-api.jar:/Users/gebruiker/.gradle/caches/transforms-3/02d39629b988ef7b67815e7e2d292eb1/transformed/jetified-firebase-common-20.1.1-api.jar:/Users/gebruiker/.gradle/caches/transforms-3/07e9880871c309373ada33142a02a98a/transformed/jetified-firebase-installations-interop-17.0.1-api.jar:/Users/gebruiker/.gradle/caches/transforms-3/3612936ae0bcbc0fa8f96a721e978cfe/transformed/jetified-play-services-tasks-18.0.1-api.jar:/Users/gebruiker/.gradle/caches/transforms-3/65664f6976c4ab67153d8bc2cf3695e7/transformed/jetified-firebase-measurement-connector-19.0.0-api.jar:/Users/gebruiker/.gradle/caches/transforms-3/0214001ff2bedb2ef5324708cc9db6fa/transformed/jetified-play-services-basement-18.0.0-api.jar:/Users/gebruiker/.gradle/caches/transforms-3/628c71e99a5e91d344849c9922de0149/transformed/fragment-1.1.0-api.jar:/Users/gebruiker/.gradle/caches/transforms-3/984aaea86d6d2f1a7967ca28d694d702/transformed/viewpager-1.0.0-api.jar:/Users/gebruiker/.gradle/caches/transforms-3/f1a1c0bc00364f59c06e7bc4675814af/transformed/legacy-support-core-utils-1.0.0-api.jar:/Users/gebruiker/.gradle/caches/transforms-3/9aeb2ea9b56eb96add760645a417a905/transformed/loader-1.0.0-api.jar:/Users/gebruiker/.gradle/caches/transforms-3/6b191e9024b412e71c2a676c2747cf21/transformed/jetified-activity-1.0.0-api.jar:/Users/gebruiker/.gradle/caches/transforms-3/20f97ba83dc5a9299edf4fb9d1ae89fe/transformed/customview-1.0.0-api.jar:/Users/gebruiker/.gradle/caches/transforms-3/53d1ac323fe95b2582c47c95cf34aa7e/transformed/core-1.6.0-api.jar:/Users/gebruiker/.gradle/caches/transforms-3/61751c96f53bfbde28433d407898a9ca/transformed/lifecycle-runtime-2.2.0-api.jar:/Users/gebruiker/.gradle/caches/transforms-3/cd7aa90f89264a8f24018032c73224a6/transformed/jetified-savedstate-1.0.0-api.jar:/Users/gebruiker/.gradle/caches/transforms-3/763c28706aabfef99b073a772c6b5346/transformed/lifecycle-livedata-2.0.0-api.jar:/Users/gebruiker/.gradle/caches/transforms-3/729e31c88bda075e896567f0c3767bd2/transformed/lifecycle-livedata-core-2.0.0-api.jar:/Users/gebruiker/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.2.0/4ef09a745007778eef83b92f8f23987a8ea59496/lifecycle-common-2.2.0.jar:/Users/gebruiker/.gradle/caches/transforms-3/b4a1d780501d77310acdc509abed225c/transformed/core-runtime-2.0.0-api.jar:/Users/gebruiker/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar:/Users/gebruiker/.gradle/caches/transforms-3/d5d113be8f5d983a3301966b3ddf8584/transformed/versionedparcelable-1.1.1-api.jar:/Users/gebruiker/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar:/Users/gebruiker/.gradle/caches/transforms-3/dc75a9cfa8f40dd97043b9f9b0bbe209/transformed/lifecycle-viewmodel-2.1.0-api.jar:/Users/gebruiker/.gradle/caches/transforms-3/be1fb8253673f4752f5bd3b2f6e1eee8/transformed/jetified-firebase-components-17.0.0-api.jar:/Users/gebruiker/.gradle/caches/transforms-3/8872e5a5601c9564bdd59011710fcce3/transformed/documentfile-1.0.0-api.jar:/Users/gebruiker/.gradle/caches/transforms-3/cd5a00cd9dc0bcc0f456b9fe32d0dd1b/transformed/localbroadcastmanager-1.0.0-api.jar:/Users/gebruiker/.gradle/caches/transforms-3/ff75f0ece9ee00b52803da2f582fc060/transformed/print-1.0.0-api.jar:/Users/gebruiker/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.2.0/57136ff68ee784c6e19db34ed4a175338fadfde1/annotation-1.2.0.jar:/Users/gebruiker/.gradle/caches/transforms-3/f4fb771880dcb2907de6463fbc7fbda4/transformed/jetified-annotation-experimental-1.1.0-api.jar:/Users/gebruiker/.gradle/caches/transforms-3/f7dce105c7730e31c0af8d10b377cd6f/transformed/jetified-tracing-1.0.0-api.jar:/Users/gebruiker/.gradle/caches/transforms-3/3565a60c09266420f08d3c54566f86e5/transformed/jetified-window-java-1.0.0-beta04-api.jar:/Users/gebruiker/.gradle/caches/transforms-3/4c2664f7aab1a926dfbda16c85a8a2ae/transformed/jetified-window-1.0.0-beta04-api.jar:/Users/gebruiker/.gradle/caches/transforms-3/115c0616bcece7a74226bdc918413940/transformed/jetified-kotlinx-coroutines-android-1.5.2.jar:/Users/gebruiker/.gradle/caches/transforms-3/707967db7a34077d5ae3822bb0b99907/transformed/jetified-kotlinx-coroutines-core-jvm-1.5.2.jar:/Users/gebruiker/.gradle/caches/transforms-3/9b330b667180792d801738e5a641628a/transformed/jetified-kotlin-stdlib-jdk8-1.5.30.jar:/Users/gebruiker/.gradle/caches/transforms-3/914740147307c9c1fc2316fa7f725295/transformed/jetified-kotlin-stdlib-jdk7-1.6.10.jar:/Users/gebruiker/.gradle/caches/transforms-3/66a61e337bdde5b8b1161e25aeba4fbd/transformed/jetified-kotlin-stdlib-1.6.10.jar:/Users/gebruiker/.gradle/caches/transforms-3/b28432aceb7a92cb20a97e438a3e69cb/transformed/jetified-annotations-13.0.jar:/Users/gebruiker/.gradle/caches/transforms-3/5a765320f055a61ae9582de2d1c0a98b/transformed/jetified-kotlin-stdlib-common-1.6.10.jar:/Users/gebruiker/.gradle/caches/transforms-3/20a614dc7561525f618e2086e45c14a9/transformed/jetified-firebase-annotations-16.0.0.jar:/Users/gebruiker/Library/Android/sdk/platforms/android-31/android.jar:/Users/gebruiker/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="moduleName" value="app_debug" />
+          <option name="languageVersion" value="1.6" />
+          <option name="apiVersion" value="1.6" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
+        <afterSyncTasks>
+          <task>generateDebugSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../app/src/main/res;file://$MODULE_DIR$/../../../app/src/debug/res;file://$MODULE_DIR$/../../../../build/app/generated/res/rs/debug;file://$MODULE_DIR$/../../../../build/app/generated/res/resValues/debug" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../app/src/androidTest/res;file://$MODULE_DIR$/../../../app/src/androidTestDebug/res;file://$MODULE_DIR$/../../../../build/app/generated/res/rs/androidTest/debug;file://$MODULE_DIR$/../../../../build/app/generated/res/resValues/androidTest/debug" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../../../build/app/intermediates/javac/debug/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../../build/app/intermediates/javac/debugUnitTest/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../app">
+      <excludeFolder url="file://$MODULE_DIR$/../../../app/.gradle" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android API 31 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
