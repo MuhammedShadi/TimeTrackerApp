@@ -7,7 +7,9 @@ import 'package:timetracker/widgets/customesButtons.dart';
 import '../theme/theme.dart';
 
 class SignInPage extends StatefulWidget {
-  const SignInPage({Key? key, required this.onSignIn}) : super(key: key);
+  const SignInPage({Key? key, required this.authBase, required this.onSignIn})
+      : super(key: key);
+  final AuthBase authBase;
   final void Function(User?) onSignIn;
 
   @override
@@ -20,8 +22,8 @@ class _SignInPageState extends State<SignInPage> {
   // AuthBase fireBaseMethods = AuthBase();
   Future<void> signInAnonymously() async {
     try {
-      final userCredentials  = await FirebaseAuth.instance.signInAnonymously();
-      widget.onSignIn(userCredentials.user);
+      final user = await widget.authBase.signInAnonymously();
+      widget.onSignIn(user);
     } catch (e) {
       print(e.toString());
     }
@@ -155,7 +157,7 @@ class _SignInPageState extends State<SignInPage> {
               ),
               borderRadius: 10,
               onPressed: () {
-               signInAnonymously();
+                signInAnonymously();
               }),
         ],
       ),

@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:timetracker/fireBase/fireBaseMethods.dart';
 
 class HomePage extends StatefulWidget {
-  const HomePage({Key? key,required this.onSignOut}) : super(key: key);
+  const HomePage({Key? key,required this.authBase, required this.onSignOut}) : super(key: key);
+  final AuthBase authBase ;
   final VoidCallback onSignOut;
   @override
   State<HomePage> createState() => _HomePageState();
@@ -14,7 +15,7 @@ class _HomePageState extends State<HomePage> {
 
   Future<void> signOut() async {
     try {
-      await FirebaseAuth.instance.signOut();
+      await widget.authBase.signOut();
       widget.onSignOut();
     } catch (e) {
       print(e.toString());

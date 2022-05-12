@@ -5,6 +5,8 @@ import 'package:timetracker/screens/SignInPage.dart';
 import 'package:timetracker/screens/landingPage.dart';
 import 'package:timetracker/theme/theme.dart';
 
+import 'fireBase/fireBaseMethods.dart';
+
 Future<void> main() async{
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
@@ -25,7 +27,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Time Tracker ',
         theme: theme.getTheme(),
-        home: const LandingPage(),
+        home:  LandingPage(authBase: Auth(),),
         routes: const {
           // '/SignIn': (context) => const SignInPage(),
         },

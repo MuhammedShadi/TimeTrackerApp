@@ -8,7 +8,8 @@ import 'package:timetracker/screens/SignInPage.dart';
 import '../fireBase/fireBaseMethods.dart';
 
 class LandingPage extends StatefulWidget {
-  const LandingPage({Key? key}) : super(key: key);
+  const LandingPage({Key? key,required this.authBase}) : super(key: key);
+  final AuthBase authBase;
 
   // final AuthBase auth;
   @override
@@ -18,14 +19,13 @@ class LandingPage extends StatefulWidget {
 class _LandingPageState extends State<LandingPage> {
   User? _user;
 
-
   @override
   void initState() {
     super.initState();
     // widget.auth.authStatChange().listen((event) {
     //   print("uid${_user?.uid}");
     // });
-    updateUser(FirebaseAuth.instance.currentUser);
+    updateUser(widget.authBase.currentUser);
   }
 
   void updateUser(User? user) {
@@ -37,11 +37,15 @@ class _LandingPageState extends State<LandingPage> {
   @override
   Widget build(BuildContext context) {
     if (_user == null) {
-      return  SignInPage(
+      return SignInPage(
         onSignIn: (user) => updateUser(user),
+        authBase: widget.authBase,
       );
     } else {
-      return  HomePage(onSignOut: ()=>updateUser(null),);
+      return HomePage(
+        onSignOut: () => updateUser(null),
+        authBase: widget.authBase,
+      );
     }
   }
 }
