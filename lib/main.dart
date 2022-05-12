@@ -26,8 +26,8 @@ class MyApp extends StatelessWidget {
         title: 'Time Tracker ',
         theme: theme.getTheme(),
         home: const LandingPage(),
-        routes: {
-          '/SignIn': (context) => const SignInPage(),
+        routes: const {
+          // '/SignIn': (context) => const SignInPage(),
         },
       );
     });

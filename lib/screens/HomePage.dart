@@ -1,14 +1,26 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:timetracker/fireBase/fireBaseMethods.dart';
 
 class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
+  const HomePage({Key? key,required this.onSignOut}) : super(key: key);
+  final VoidCallback onSignOut;
   @override
   State<HomePage> createState() => _HomePageState();
 }
 
 class _HomePageState extends State<HomePage> {
-  final FireBaseMethods _fireBaseMethods = FireBaseMethods();
+  // final AuthBase _fireBaseMethods = AuthBase();
+
+  Future<void> signOut() async {
+    try {
+      await FirebaseAuth.instance.signOut();
+      widget.onSignOut();
+    } catch (e) {
+      print(e.toString());
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -17,7 +29,8 @@ class _HomePageState extends State<HomePage> {
         actions: [
           MaterialButton(
             onPressed: () {
-              _fireBaseMethods.signOut();
+              signOut();
+              // _fireBaseMethods.signOut();
               // Navigator.pushNamed(context, '/SignIn');
             },
             child: const Text(
