@@ -1,4 +1,4 @@
-#Fri May 13 00:29:23 TRT 2022
+#Fri May 13 02:06:58 TRT 2022
 base.0=/Users/gebruiker/Documents/GitHub/TimeTrackerApp/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

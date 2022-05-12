@@ -8,10 +8,9 @@ import 'package:timetracker/screens/SignInPage.dart';
 import '../fireBase/fireBaseMethods.dart';
 
 class LandingPage extends StatefulWidget {
-  const LandingPage({Key? key,required this.authBase}) : super(key: key);
+  const LandingPage({Key? key, required this.authBase}) : super(key: key);
   final AuthBase authBase;
 
-  // final AuthBase auth;
   @override
   State<LandingPage> createState() => _LandingPageState();
 }
@@ -22,9 +21,6 @@ class _LandingPageState extends State<LandingPage> {
   @override
   void initState() {
     super.initState();
-    // widget.auth.authStatChange().listen((event) {
-    //   print("uid${_user?.uid}");
-    // });
     updateUser(widget.authBase.currentUser);
   }
 
@@ -36,16 +32,28 @@ class _LandingPageState extends State<LandingPage> {
 
   @override
   Widget build(BuildContext context) {
-    if (_user == null) {
-      return SignInPage(
-        onSignIn: (user) => updateUser(user),
-        authBase: widget.authBase,
-      );
-    } else {
-      return HomePage(
-        onSignOut: () => updateUser(null),
-        authBase: widget.authBase,
-      );
-    }
+    return StreamBuilder<User?>(
+        stream: widget.authBase.authStatChange(),
+        builder: (context, snapshot) {
+          if (snapshot.connectionState == ConnectionState.active) {
+            final User? user = snapshot.data;
+            if (user == null) {
+              return SignInPage(
+                onSignIn: (user) => updateUser(user),
+                authBase: widget.authBase,
+              );
+            } else {
+              return HomePage(
+                onSignOut: () => updateUser(null),
+                authBase: widget.authBase,
+              );
+            }
+          }
+          return const Scaffold(
+            body: Center(
+              child: CircularProgressIndicator(),
+            ),
+          );
+        });
   }
 }
