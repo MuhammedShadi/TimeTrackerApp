@@ -7,45 +7,25 @@ import 'package:timetracker/screens/SignInPage.dart';
 
 import '../fireBase/fireBaseMethods.dart';
 
-class LandingPage extends StatefulWidget {
+class LandingPage extends StatelessWidget {
   const LandingPage({Key? key, required this.authBase}) : super(key: key);
   final AuthBase authBase;
 
-  @override
-  State<LandingPage> createState() => _LandingPageState();
-}
-
-class _LandingPageState extends State<LandingPage> {
-  User? _user;
-
-  @override
-  void initState() {
-    super.initState();
-    updateUser(widget.authBase.currentUser);
-  }
-
-  void updateUser(User? user) {
-    setState(() {
-      _user = user;
-    });
-  }
 
   @override
   Widget build(BuildContext context) {
     return StreamBuilder<User?>(
-        stream: widget.authBase.authStatChange(),
+        stream: authBase.authStatChange(),
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.active) {
             final User? user = snapshot.data;
             if (user == null) {
               return SignInPage(
-                onSignIn: (user) => updateUser(user),
-                authBase: widget.authBase,
+                authBase: authBase,
               );
             } else {
               return HomePage(
-                onSignOut: () => updateUser(null),
-                authBase: widget.authBase,
+                authBase: authBase,
               );
             }
           }

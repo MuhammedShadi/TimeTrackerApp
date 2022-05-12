@@ -1,4 +1,4 @@
-import 'package:firebase_auth/firebase_auth.dart';
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:timetracker/fireBase/fireBaseMethods.dart';
@@ -7,10 +7,8 @@ import 'package:timetracker/widgets/customesButtons.dart';
 import '../theme/theme.dart';
 
 class SignInPage extends StatefulWidget {
-  const SignInPage({Key? key, required this.authBase, required this.onSignIn})
-      : super(key: key);
+  const SignInPage({Key? key, required this.authBase}) : super(key: key);
   final AuthBase authBase;
-  final void Function(User?) onSignIn;
 
   @override
   State<SignInPage> createState() => _SignInPageState();
@@ -22,8 +20,7 @@ class _SignInPageState extends State<SignInPage> {
   // AuthBase fireBaseMethods = AuthBase();
   Future<void> signInAnonymously() async {
     try {
-      final user = await widget.authBase.signInAnonymously();
-      widget.onSignIn(user);
+      await widget.authBase.signInAnonymously();
     } catch (e) {
       print(e.toString());
     }
