@@ -92,8 +92,32 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "flutter_facebook_auth",
+      "rootUri": "file:///Users/gebruiker/development/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_facebook_auth-4.3.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_facebook_auth_platform_interface",
+      "rootUri": "file:///Users/gebruiker/development/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_facebook_auth_platform_interface-3.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_facebook_auth_web",
+      "rootUri": "file:///Users/gebruiker/development/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_facebook_auth_web-3.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "flutter_lints",
       "rootUri": "file:///Users/gebruiker/development/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_lints-1.0.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_login_facebook",
+      "rootUri": "file:///Users/gebruiker/development/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_login_facebook-1.4.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -106,6 +130,36 @@
     {
       "name": "flutter_web_plugins",
       "rootUri": "file:///Users/gebruiker/development/flutter/packages/flutter_web_plugins",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "google_sign_in",
+      "rootUri": "file:///Users/gebruiker/development/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in-5.3.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "google_sign_in_android",
+      "rootUri": "file:///Users/gebruiker/development/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_android-5.2.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "google_sign_in_ios",
+      "rootUri": "file:///Users/gebruiker/development/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_ios-5.2.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "google_sign_in_platform_interface",
+      "rootUri": "file:///Users/gebruiker/development/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_platform_interface-2.1.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "google_sign_in_web",
+      "rootUri": "file:///Users/gebruiker/development/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_web-0.10.1+2",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -130,6 +184,12 @@
     {
       "name": "lints",
       "rootUri": "file:///Users/gebruiker/development/flutter/.pub-cache/hosted/pub.dartlang.org/lints-1.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "list_ext",
+      "rootUri": "file:///Users/gebruiker/development/flutter/.pub-cache/hosted/pub.dartlang.org/list_ext-1.0.4",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -172,6 +232,12 @@
     {
       "name": "provider",
       "rootUri": "file:///Users/gebruiker/development/flutter/.pub-cache/hosted/pub.dartlang.org/provider-6.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "quiver",
+      "rootUri": "file:///Users/gebruiker/development/flutter/.pub-cache/hosted/pub.dartlang.org/quiver-3.1.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -236,7 +302,7 @@
       "languageVersion": "2.16"
     }
   ],
-  "generated": "2022-05-10T08:13:24.785907Z",
+  "generated": "2022-05-13T03:12:17.778713Z",
   "generator": "pub",
   "generatorVersion": "2.16.2"
 }

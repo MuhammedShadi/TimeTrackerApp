@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:timetracker/fireBase/fireBaseMethods.dart';
@@ -17,10 +16,30 @@ class SignInPage extends StatefulWidget {
 class _SignInPageState extends State<SignInPage> {
   bool modelValue = true;
 
-  // AuthBase fireBaseMethods = AuthBase();
   Future<void> signInAnonymously() async {
     try {
       await widget.authBase.signInAnonymously();
+    } catch (e) {
+      print(e.toString());
+    }
+  }
+
+  Future<void> signInWithGoogle() async {
+    try {
+      await widget.authBase.signInGoogle();
+    } catch (e) {
+      print(e.toString());
+    }
+  }  Future<void> signInWithFacebook() async {
+    try {
+      await widget.authBase.signInWithFacebook();
+    } catch (e) {
+      print(e.toString());
+    }
+  }
+  Future<void> logInWithFacebook() async {
+    try {
+      await widget.authBase.loginWithFacebook();
     } catch (e) {
       print(e.toString());
     }
@@ -96,7 +115,9 @@ class _SignInPageState extends State<SignInPage> {
                 ],
               ),
               borderRadius: 10,
-              onPressed: () {}),
+              onPressed: () {
+                signInWithGoogle();
+              }),
           const SizedBox(height: 8),
           CustomeRaisedButton(
               color: const Color(0xFF334D92),
@@ -119,7 +140,9 @@ class _SignInPageState extends State<SignInPage> {
                 ],
               ),
               borderRadius: 10,
-              onPressed: () {}),
+              onPressed: () {
+                logInWithFacebook();
+              }),
           const SizedBox(height: 8),
           CustomeRaisedButton(
               color: Colors.teal,
