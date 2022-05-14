@@ -4,7 +4,7 @@ import 'package:timetracker/fireBase/fireBaseMethods.dart';
 import 'package:timetracker/widgets/customesButtons.dart';
 
 import '../theme/theme.dart';
-
+bool modelValue = false;
 class SignInPage extends StatefulWidget {
   const SignInPage({Key? key, required this.authBase}) : super(key: key);
   final AuthBase authBase;
@@ -14,7 +14,6 @@ class SignInPage extends StatefulWidget {
 }
 
 class _SignInPageState extends State<SignInPage> {
-  bool modelValue = true;
 
   Future<void> signInAnonymously() async {
     try {
@@ -30,13 +29,16 @@ class _SignInPageState extends State<SignInPage> {
     } catch (e) {
       print(e.toString());
     }
-  }  Future<void> signInWithFacebook() async {
+  }
+
+  Future<void> signInWithFacebook() async {
     try {
       await widget.authBase.signInWithFacebook();
     } catch (e) {
       print(e.toString());
     }
   }
+
   Future<void> logInWithFacebook() async {
     try {
       await widget.authBase.loginWithFacebook();
@@ -58,19 +60,21 @@ class _SignInPageState extends State<SignInPage> {
                   onPressed: () {
                     setState(() {
                       modelValue = false;
+                      print(modelValue);
                       _themeChanger.setTheme(ThemeData.dark());
                     });
                   },
-                  icon: const Icon(Icons.wb_sunny),
+                  icon: const Icon(Icons.wb_sunny_outlined),
                 )
               : IconButton(
                   onPressed: () {
                     setState(() {
                       modelValue = true;
+                      print(modelValue);
                       _themeChanger.setTheme(ThemeData.light());
                     });
                   },
-                  icon: const Icon(Icons.wb_sunny_outlined),
+                  icon: const Icon(Icons.wb_sunny),
                 ),
         ],
       ),
