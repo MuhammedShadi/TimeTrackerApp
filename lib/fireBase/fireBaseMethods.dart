@@ -14,7 +14,12 @@ abstract class AuthBase {
 
   Future<User?> signInWithFacebook();
 
+  Future<User?> signInWithEmailAndPassword(String email , String password);
+
+  Future<User?> createUserWithEmailAndPassword(String email , String password);
+
   Future<UserCredential> loginWithFacebook();
+
 
   Future<void> signOut();
 }
@@ -104,6 +109,18 @@ class Auth implements AuthBase {
     await _fireBaseAuth.signInWithCredential(facebookAuthCredentials);
     return FirebaseAuth.instance.signInWithCredential(facebookAuthCredentials);
   }
+
+
+  @override
+  Future<User?> signInWithEmailAndPassword(String email , String password) async{
+    final userCredential = await _fireBaseAuth.signInWithCredential(EmailAuthProvider.credential(email: email, password: password));
+    return userCredential.user;
+   }
+  @override
+  Future<User?> createUserWithEmailAndPassword(String email , String password) async{
+    final userCredential = await _fireBaseAuth.createUserWithEmailAndPassword(email: email, password: password);
+    return userCredential.user;
+   }
 
   @override
   Future<void> signOut() async {

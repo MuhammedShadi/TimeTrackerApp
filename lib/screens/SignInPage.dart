@@ -53,7 +53,7 @@ class _SignInPageState extends State<SignInPage> {
     Navigator.of(context).push(
       MaterialPageRoute<void>(
         fullscreenDialog: true,
-        builder: (context) => SignInEmailPage(),
+        builder: (context) => SignInEmailPage(authBase: widget.authBase,),
       ),
     );
   }

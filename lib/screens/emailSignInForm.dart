@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:timetracker/fireBase/fireBaseMethods.dart';
 import 'package:timetracker/widgets/formSubmitButton.dart';
 
 enum EmailSignInFormType { signIn, register }
 
 class EmailSignInForm extends StatefulWidget {
-  const EmailSignInForm({Key? key}) : super(key: key);
+  EmailSignInForm({Key? key, required this.authBase}) : super(key: key);
+  AuthBase authBase;
 
   @override
   State<EmailSignInForm> createState() => _EmailSignInFormState();
@@ -13,13 +15,28 @@ class EmailSignInForm extends StatefulWidget {
 class _EmailSignInFormState extends State<EmailSignInForm> {
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
-   EmailSignInFormType _formType = EmailSignInFormType.signIn;
+  EmailSignInFormType _formType = EmailSignInFormType.signIn;
 
-  void _submit() {}
+  String get _email => _emailController.text;
+
+  String get _password => _passwordController.text;
+
+  void _submit() async {
+    try {
+      if (_formType == EmailSignInFormType.signIn) {
+        await widget.authBase.signInWithEmailAndPassword(_email, _password);
+      } else {
+        await widget.authBase.createUserWithEmailAndPassword(_email, _password);
+      }
+      Navigator.of(context).pop();
+    } catch (e) {
+      print(e.toString());
+    }
+  }
 
   void _toggleFormType() {
     setState(() {
-      _formType =  _formType == EmailSignInFormType.signIn
+      _formType = _formType == EmailSignInFormType.signIn
           ? EmailSignInFormType.register
           : EmailSignInFormType.signIn;
     });
