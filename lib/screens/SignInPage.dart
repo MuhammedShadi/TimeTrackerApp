@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:timetracker/fireBase/fireBaseMethods.dart';
+import 'package:timetracker/screens/signInEmailPage.dart';
 import 'package:timetracker/widgets/customesButtons.dart';
 
 import '../theme/theme.dart';
+
 bool modelValue = false;
+
 class SignInPage extends StatefulWidget {
   const SignInPage({Key? key, required this.authBase}) : super(key: key);
   final AuthBase authBase;
@@ -14,7 +17,6 @@ class SignInPage extends StatefulWidget {
 }
 
 class _SignInPageState extends State<SignInPage> {
-
   Future<void> signInAnonymously() async {
     try {
       await widget.authBase.signInAnonymously();
@@ -45,6 +47,15 @@ class _SignInPageState extends State<SignInPage> {
     } catch (e) {
       print(e.toString());
     }
+  }
+
+  void SignInEmail(BuildContext context) {
+    Navigator.of(context).push(
+      MaterialPageRoute<void>(
+        fullscreenDialog: true,
+        builder: (context) => SignInEmailPage(),
+      ),
+    );
   }
 
   @override
@@ -160,7 +171,7 @@ class _SignInPageState extends State<SignInPage> {
                 ),
               ),
               borderRadius: 10,
-              onPressed: () {}),
+              onPressed: (){SignInEmail(context);}),
           const SizedBox(height: 8),
           const Text(
             "or",
