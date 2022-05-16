@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:timetracker/fireBase/fireBaseMethods.dart';
+import 'package:timetracker/theme/showAlertDialog.dart';
 
 class HomePage extends StatefulWidget {
-  const HomePage({Key? key,required this.authBase}) : super(key: key);
-  final AuthBase authBase ;
+  const HomePage({Key? key, required this.authBase}) : super(key: key);
+  final AuthBase authBase;
+
   @override
   State<HomePage> createState() => _HomePageState();
 }
@@ -19,6 +21,16 @@ class _HomePageState extends State<HomePage> {
     }
   }
 
+  Future<void> _confirmSignOut() async {
+    final didRequestSignOut = await showAlertDialog(context, title: "Logout",
+        content: "Are you sure that you want to log out",
+        cancelActionText: "Cancel",
+        defaultActionText: "Logout");
+    if(didRequestSignOut == true){
+      signOut();
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -27,9 +39,7 @@ class _HomePageState extends State<HomePage> {
         actions: [
           MaterialButton(
             onPressed: () {
-              signOut();
-              // _fireBaseMethods.signOut();
-              // Navigator.pushNamed(context, '/SignIn');
+             _confirmSignOut();
             },
             child: const Text(
               "Logout",

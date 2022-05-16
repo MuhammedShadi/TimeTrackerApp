@@ -7,6 +7,7 @@ Future showAlertDialog(
   BuildContext context, {
   required String title,
   required String content,
+            String? cancelActionText ,
   required String defaultActionText,
 }) {
   if (!Platform.isIOS) {
@@ -17,7 +18,13 @@ Future showAlertDialog(
           title: Text(title),
           content: Text(content),
           actions: <Widget>[
+            if(cancelActionText != null)
             MaterialButton(
+              child: Text(cancelActionText),
+              onPressed: () {
+                Navigator.of(context).pop(false); // Dismiss alert dialog
+              },
+            ), MaterialButton(
               child: Text(defaultActionText),
               onPressed: () {
                 Navigator.of(context).pop(true); // Dismiss alert dialog
@@ -35,7 +42,13 @@ Future showAlertDialog(
         title: Text(title),
         content: Text(content),
         actions: <Widget>[
+          if(cancelActionText != null)
           CupertinoDialogAction(
+            child: Text(cancelActionText),
+            onPressed: () {
+              Navigator.of(context).pop(false); // Dismiss alert dialog
+            },
+          ),CupertinoDialogAction(
             child: Text(defaultActionText),
             onPressed: () {
               Navigator.of(context).pop(true); // Dismiss alert dialog
