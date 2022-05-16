@@ -34,7 +34,7 @@
 23        android:debuggable="true"
 24        android:extractNativeLibs="false"
 25        android:icon="@mipmap/ic_launcher"
-26        android:label="timetracker"
+26        android:label="MoTime"
 27        android:supportsRtl="true" >
 27-->[com.facebook.android:facebook-login:13.2.0] /Users/gebruiker/.gradle/caches/transforms-3/063ab6c2dc51c05d8163568eed0a6c4f/transformed/jetified-facebook-login-13.2.0/AndroidManifest.xml:28:18-44
 28        <activity

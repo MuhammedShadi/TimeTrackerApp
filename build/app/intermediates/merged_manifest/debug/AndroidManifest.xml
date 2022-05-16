@@ -23,7 +23,7 @@
         android:debuggable="true"
         android:extractNativeLibs="false"
         android:icon="@mipmap/ic_launcher"
-        android:label="timetracker"
+        android:label="MoTime"
         android:supportsRtl="true" >
         <activity
             android:name="com.example.timetracker.MainActivity"

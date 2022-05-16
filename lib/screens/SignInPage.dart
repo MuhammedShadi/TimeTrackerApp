@@ -63,7 +63,7 @@ class _SignInPageState extends State<SignInPage> {
     final ThemeChanger _themeChanger = Provider.of<ThemeChanger>(context);
     return Scaffold(
       appBar: AppBar(
-        title: const Center(child: Text("Time Tracker")),
+        title: const Center(child: Text("MoTracker")),
         elevation: 5.0,
         actions: <Widget>[
           modelValue == true
