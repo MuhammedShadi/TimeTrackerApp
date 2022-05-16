@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "ru.innim.flutter_login_facebook-mergeReleaseResources-18:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/gebruiker/.gradle/caches/transforms-3/1a9a9f33fac3f7151d051c99ad87f3e1/transformed/appcompat-1.1.0/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "ru.innim.flutter_login_facebook-merged_res-20:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/gebruiker/.gradle/caches/transforms-3/1a9a9f33fac3f7151d051c99ad87f3e1/transformed/appcompat-1.1.0/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

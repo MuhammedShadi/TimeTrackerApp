@@ -1,0 +1,17 @@
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-play-services-base-17.1.0-0 /Users/gebruiker/.gradle/caches/transforms-3/0b0a6817cb29b608313162c44532be54/transformed/jetified-play-services-base-17.1.0/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-annotation-experimental-1.1.0-1 /Users/gebruiker/.gradle/caches/transforms-3/12204ae2b8acba0549b11c36ccdfcf4f/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.firebase.auth.firebase_auth-browser-1.0.0-2 /Users/gebruiker/.gradle/caches/transforms-3/19a26b4a06945ac1930c5ace1e5692fe/transformed/browser-1.0.0/res
+io.flutter.plugins.firebase.auth.firebase_auth-coordinatorlayout-1.0.0-3 /Users/gebruiker/.gradle/caches/transforms-3/276e9f030187a25dc8900bdb6cfe10b4/transformed/coordinatorlayout-1.0.0/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-window-1.0.0-beta04-4 /Users/gebruiker/.gradle/caches/transforms-3/9e9b3e5992a8afbc278572c80a2e58ba/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-window-java-1.0.0-beta04-5 /Users/gebruiker/.gradle/caches/transforms-3/b376b8d0855cac8c684a847c3e1e36bf/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-play-services-basement-18.0.0-6 /Users/gebruiker/.gradle/caches/transforms-3/bfb0ef8d204359befedb0639b42583fd/transformed/jetified-play-services-basement-18.0.0/res
+io.flutter.plugins.firebase.auth.firebase_auth-core-1.6.0-7 /Users/gebruiker/.gradle/caches/transforms-3/cc0623eba699dd9d1295dd727fcc38bd/transformed/core-1.6.0/res
+io.flutter.plugins.firebase.auth.firebase_auth-pngs-8 /Users/gebruiker/Documents/GitHub/TimeTrackerApp/build/firebase_auth/generated/res/pngs/release
+io.flutter.plugins.firebase.auth.firebase_auth-resValues-9 /Users/gebruiker/Documents/GitHub/TimeTrackerApp/build/firebase_auth/generated/res/resValues/release
+io.flutter.plugins.firebase.auth.firebase_auth-rs-10 /Users/gebruiker/Documents/GitHub/TimeTrackerApp/build/firebase_auth/generated/res/rs/release
+io.flutter.plugins.firebase.auth.firebase_auth-mergeReleaseResources-11 /Users/gebruiker/Documents/GitHub/TimeTrackerApp/build/firebase_auth/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.auth.firebase_auth-mergeReleaseResources-12 /Users/gebruiker/Documents/GitHub/TimeTrackerApp/build/firebase_auth/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.auth.firebase_auth-merged_res-13 /Users/gebruiker/Documents/GitHub/TimeTrackerApp/build/firebase_auth/intermediates/merged_res/release
+io.flutter.plugins.firebase.auth.firebase_auth-packaged_res-14 /Users/gebruiker/Documents/GitHub/TimeTrackerApp/build/firebase_core/intermediates/packaged_res/release
+io.flutter.plugins.firebase.auth.firebase_auth-main-15 /Users/gebruiker/development/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-3.3.17/android/src/main/res
+io.flutter.plugins.firebase.auth.firebase_auth-release-16 /Users/gebruiker/development/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-3.3.17/android/src/release/res

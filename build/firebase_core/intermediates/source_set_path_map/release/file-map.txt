@@ -1,0 +1,13 @@
+io.flutter.plugins.firebase.core.firebase_core-jetified-annotation-experimental-1.1.0-0 /Users/gebruiker/.gradle/caches/transforms-3/12204ae2b8acba0549b11c36ccdfcf4f/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-window-1.0.0-beta04-1 /Users/gebruiker/.gradle/caches/transforms-3/9e9b3e5992a8afbc278572c80a2e58ba/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-window-java-1.0.0-beta04-2 /Users/gebruiker/.gradle/caches/transforms-3/b376b8d0855cac8c684a847c3e1e36bf/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-play-services-basement-18.0.0-3 /Users/gebruiker/.gradle/caches/transforms-3/bfb0ef8d204359befedb0639b42583fd/transformed/jetified-play-services-basement-18.0.0/res
+io.flutter.plugins.firebase.core.firebase_core-core-1.6.0-4 /Users/gebruiker/.gradle/caches/transforms-3/cc0623eba699dd9d1295dd727fcc38bd/transformed/core-1.6.0/res
+io.flutter.plugins.firebase.core.firebase_core-pngs-5 /Users/gebruiker/Documents/GitHub/TimeTrackerApp/build/firebase_core/generated/res/pngs/release
+io.flutter.plugins.firebase.core.firebase_core-resValues-6 /Users/gebruiker/Documents/GitHub/TimeTrackerApp/build/firebase_core/generated/res/resValues/release
+io.flutter.plugins.firebase.core.firebase_core-rs-7 /Users/gebruiker/Documents/GitHub/TimeTrackerApp/build/firebase_core/generated/res/rs/release
+io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-8 /Users/gebruiker/Documents/GitHub/TimeTrackerApp/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-9 /Users/gebruiker/Documents/GitHub/TimeTrackerApp/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.core.firebase_core-merged_res-10 /Users/gebruiker/Documents/GitHub/TimeTrackerApp/build/firebase_core/intermediates/merged_res/release
+io.flutter.plugins.firebase.core.firebase_core-main-11 /Users/gebruiker/development/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-1.16.0/android/src/main/res
+io.flutter.plugins.firebase.core.firebase_core-release-12 /Users/gebruiker/development/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-1.16.0/android/src/release/res

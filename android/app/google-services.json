@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:715291127676:android:7acb627051a24a029cfef9",
         "android_client_info": {
-          "package_name": "com.example.timetracker"
+          "package_name": "com.timetracker.motracker"
         }
       },
       "oauth_client": [
@@ -17,7 +17,7 @@
           "client_id": "715291127676-aalkntv5o6kt016mvvd2brt53el12kvf.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.timetracker",
+            "package_name": "com.timetracker.motracker",
             "certificate_hash": "759e015bd670f3953845c90b1251d7edc4a5636b"
           }
         },

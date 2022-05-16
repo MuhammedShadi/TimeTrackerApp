@@ -145,9 +145,9 @@ INJECTED from /Users/gebruiker/Documents/GitHub/TimeTrackerApp/android/app/src/d
 INJECTED from /Users/gebruiker/Documents/GitHub/TimeTrackerApp/android/app/src/debug/AndroidManifest.xml:1:1-6:12
 INJECTED from /Users/gebruiker/Documents/GitHub/TimeTrackerApp/android/app/src/debug/AndroidManifest.xml:1:1-6:12
 	package
-		ADDED from /Users/gebruiker/Documents/GitHub/TimeTrackerApp/android/app/src/main/AndroidManifest.xml:1:70-103
+		ADDED from /Users/gebruiker/Documents/GitHub/TimeTrackerApp/android/app/src/main/AndroidManifest.xml:1:70-105
 		INJECTED from /Users/gebruiker/Documents/GitHub/TimeTrackerApp/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/gebruiker/Documents/GitHub/TimeTrackerApp/android/app/src/main/AndroidManifest.xml:1:70-103
+		ADDED from /Users/gebruiker/Documents/GitHub/TimeTrackerApp/android/app/src/main/AndroidManifest.xml:1:70-105
 		INJECTED from /Users/gebruiker/Documents/GitHub/TimeTrackerApp/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/gebruiker/Documents/GitHub/TimeTrackerApp/android/app/src/main/AndroidManifest.xml
@@ -509,7 +509,7 @@ MERGED from [com.facebook.android:facebook-common:13.2.0] /Users/gebruiker/.grad
 		ADDED from [com.facebook.android:facebook-common:13.2.0] /Users/gebruiker/.gradle/caches/transforms-3/771d67d642ee8047762254a3ea559c5c/transformed/jetified-facebook-common-13.2.0/AndroidManifest.xml:38:13-31
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.${applicationId}+data:scheme:fbconnect
 ADDED from [com.facebook.android:facebook-common:13.2.0] /Users/gebruiker/.gradle/caches/transforms-3/771d67d642ee8047762254a3ea559c5c/transformed/jetified-facebook-common-13.2.0/AndroidManifest.xml:39:13-48:29
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.com.example.timetracker+data:scheme:fbconnect
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.com.timetracker.motracker+data:scheme:fbconnect
 ADDED from [com.facebook.android:facebook-common:13.2.0] /Users/gebruiker/.gradle/caches/transforms-3/771d67d642ee8047762254a3ea559c5c/transformed/jetified-facebook-common-13.2.0/AndroidManifest.xml:39:13-48:29
 provider#com.facebook.internal.FacebookInitProvider
 ADDED from [com.facebook.android:facebook-core:13.2.0] /Users/gebruiker/.gradle/caches/transforms-3/4a17f643bcaac7740d5647b15a2c8c01/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:41:9-44:40

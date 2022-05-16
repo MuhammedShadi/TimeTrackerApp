@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.timetracker.app-mergeDebugResources-26:/values-th/values-th.xml",
+            "outputFile": "com.timetracker.motracker.app-mergeDebugResources-26:/values-th/values-th.xml",
             "map": [
                 {
                     "source": "/Users/gebruiker/.gradle/caches/transforms-3/bfb0ef8d204359befedb0639b42583fd/transformed/jetified-play-services-basement-18.0.0/res/values-th/values.xml",

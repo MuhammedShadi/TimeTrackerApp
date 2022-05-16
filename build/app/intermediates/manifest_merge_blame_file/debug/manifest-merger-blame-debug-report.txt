@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.example.timetracker"
+3    package="com.timetracker.motracker"
 4    android:versionCode="1"
 5    android:versionName="1.0.0" >
 6
@@ -34,11 +34,11 @@
 23        android:debuggable="true"
 24        android:extractNativeLibs="false"
 25        android:icon="@mipmap/ic_launcher"
-26        android:label="MoTime"
+26        android:label="MoTracker"
 27        android:supportsRtl="true" >
 27-->[com.facebook.android:facebook-login:13.2.0] /Users/gebruiker/.gradle/caches/transforms-3/063ab6c2dc51c05d8163568eed0a6c4f/transformed/jetified-facebook-login-13.2.0/AndroidManifest.xml:28:18-44
 28        <activity
-29            android:name="com.example.timetracker.MainActivity"
+29            android:name="com.timetracker.motracker.MainActivity"
 30            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
 31            android:exported="true"
 32            android:hardwareAccelerated="true"
@@ -116,7 +116,7 @@
 88
 89                <data
 89-->[com.google.firebase:firebase-auth:21.0.3] /Users/gebruiker/.gradle/caches/transforms-3/fb31b225874cb946df810d9e5b0e2dbc/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:39:17-42:51
-90                    android:host="cct.com.example.timetracker"
+90                    android:host="cct.com.timetracker.motracker"
 90-->[com.google.firebase:firebase-auth:21.0.3] /Users/gebruiker/.gradle/caches/transforms-3/fb31b225874cb946df810d9e5b0e2dbc/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:40:21-49
 91                    android:scheme="fbconnect" />
 91-->[com.google.firebase:firebase-auth:21.0.3] /Users/gebruiker/.gradle/caches/transforms-3/fb31b225874cb946df810d9e5b0e2dbc/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:42:21-48
@@ -251,7 +251,7 @@
 160-->[com.google.firebase:firebase-common:20.1.1] /Users/gebruiker/.gradle/caches/transforms-3/6f2a7e2a0c69ddd9a3e163c662f78851/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
 161            android:name="com.google.firebase.provider.FirebaseInitProvider"
 161-->[com.google.firebase:firebase-common:20.1.1] /Users/gebruiker/.gradle/caches/transforms-3/6f2a7e2a0c69ddd9a3e163c662f78851/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:27:13-77
-162            android:authorities="com.example.timetracker.firebaseinitprovider"
+162            android:authorities="com.timetracker.motracker.firebaseinitprovider"
 162-->[com.google.firebase:firebase-common:20.1.1] /Users/gebruiker/.gradle/caches/transforms-3/6f2a7e2a0c69ddd9a3e163c662f78851/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:28:13-72
 163            android:directBootAware="true"
 163-->[com.google.firebase:firebase-common:20.1.1] /Users/gebruiker/.gradle/caches/transforms-3/6f2a7e2a0c69ddd9a3e163c662f78851/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:29:13-43
@@ -276,7 +276,7 @@
 177-->[com.facebook.android:facebook-core:13.2.0] /Users/gebruiker/.gradle/caches/transforms-3/4a17f643bcaac7740d5647b15a2c8c01/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:41:9-44:40
 178            android:name="com.facebook.internal.FacebookInitProvider"
 178-->[com.facebook.android:facebook-core:13.2.0] /Users/gebruiker/.gradle/caches/transforms-3/4a17f643bcaac7740d5647b15a2c8c01/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:42:13-70
-179            android:authorities="com.example.timetracker.FacebookInitProvider"
+179            android:authorities="com.timetracker.motracker.FacebookInitProvider"
 179-->[com.facebook.android:facebook-core:13.2.0] /Users/gebruiker/.gradle/caches/transforms-3/4a17f643bcaac7740d5647b15a2c8c01/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:43:13-72
 180            android:exported="false" />
 180-->[com.facebook.android:facebook-core:13.2.0] /Users/gebruiker/.gradle/caches/transforms-3/4a17f643bcaac7740d5647b15a2c8c01/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:44:13-37

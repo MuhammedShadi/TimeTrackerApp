@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "ru.innim.flutter_login_facebook-merged_res-20:/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "ru.innim.flutter_login_facebook-appcompat-1.1.0-5:/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "ru.innim.flutter_login_facebook-merged_res-20:/color-v23/abc_tint_switch_track.xml",
+        "source": "ru.innim.flutter_login_facebook-appcompat-1.1.0-5:/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "ru.innim.flutter_login_facebook-merged_res-20:/color-v23/abc_tint_btn_checkable.xml",
+        "source": "ru.innim.flutter_login_facebook-appcompat-1.1.0-5:/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "ru.innim.flutter_login_facebook-merged_res-20:/color-v23/abc_tint_spinner.xml",
+        "source": "ru.innim.flutter_login_facebook-appcompat-1.1.0-5:/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "ru.innim.flutter_login_facebook-merged_res-20:/color-v23/abc_tint_seek_thumb.xml",
+        "source": "ru.innim.flutter_login_facebook-appcompat-1.1.0-5:/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "ru.innim.flutter_login_facebook-merged_res-20:/color-v23/abc_color_highlight_material.xml",
+        "source": "ru.innim.flutter_login_facebook-appcompat-1.1.0-5:/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "ru.innim.flutter_login_facebook-merged_res-20:/color-v23/abc_btn_colored_text_material.xml",
+        "source": "ru.innim.flutter_login_facebook-appcompat-1.1.0-5:/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "ru.innim.flutter_login_facebook-merged_res-20:/color-v23/abc_tint_default.xml",
+        "source": "ru.innim.flutter_login_facebook-appcompat-1.1.0-5:/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "ru.innim.flutter_login_facebook-merged_res-20:/color-v23/abc_tint_edittext.xml",
+        "source": "ru.innim.flutter_login_facebook-appcompat-1.1.0-5:/color-v23/abc_tint_edittext.xml"
+    }
+]

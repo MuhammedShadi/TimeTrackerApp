@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.timetracker"
+    package="com.timetracker.motracker"
     android:versionCode="1"
     android:versionName="1.0.0" >
 
@@ -23,10 +23,10 @@
         android:debuggable="true"
         android:extractNativeLibs="false"
         android:icon="@mipmap/ic_launcher"
-        android:label="MoTime"
+        android:label="MoTracker"
         android:supportsRtl="true" >
         <activity
-            android:name="com.example.timetracker.MainActivity"
+            android:name="com.timetracker.motracker.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:exported="true"
             android:hardwareAccelerated="true"
@@ -87,7 +87,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:host="cct.com.example.timetracker"
+                    android:host="cct.com.timetracker.motracker"
                     android:scheme="fbconnect" />
             </intent-filter>
         </activity>
@@ -159,7 +159,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.example.timetracker.firebaseinitprovider"
+            android:authorities="com.timetracker.motracker.firebaseinitprovider"
             android:directBootAware="true"
             android:exported="false"
             android:initOrder="100" />
@@ -176,7 +176,7 @@
         -->
         <provider
             android:name="com.facebook.internal.FacebookInitProvider"
-            android:authorities="com.example.timetracker.FacebookInitProvider"
+            android:authorities="com.timetracker.motracker.FacebookInitProvider"
             android:exported="false" />
 
         <receiver

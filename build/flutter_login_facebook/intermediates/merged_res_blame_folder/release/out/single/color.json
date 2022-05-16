@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "ru.innim.flutter_login_facebook-merged_res-20:/color/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "ru.innim.flutter_login_facebook-appcompat-1.1.0-5:/color/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "ru.innim.flutter_login_facebook-merged_res-20:/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "ru.innim.flutter_login_facebook-appcompat-1.1.0-5:/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "ru.innim.flutter_login_facebook-merged_res-20:/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "ru.innim.flutter_login_facebook-appcompat-1.1.0-5:/color/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "ru.innim.flutter_login_facebook-merged_res-20:/color/abc_tint_btn_checkable.xml",
+        "source": "ru.innim.flutter_login_facebook-appcompat-1.1.0-5:/color/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "ru.innim.flutter_login_facebook-merged_res-20:/color/abc_background_cache_hint_selector_material_light.xml",
+        "source": "ru.innim.flutter_login_facebook-appcompat-1.1.0-5:/color/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "ru.innim.flutter_login_facebook-merged_res-20:/color/com_facebook_button_text_color.xml",
+        "source": "ru.innim.flutter_login_facebook-jetified-facebook-common-12.3.0-3:/color/com_facebook_button_text_color.xml"
+    },
+    {
+        "merged": "ru.innim.flutter_login_facebook-merged_res-20:/color/switch_thumb_material_light.xml",
+        "source": "ru.innim.flutter_login_facebook-appcompat-1.1.0-5:/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "ru.innim.flutter_login_facebook-merged_res-20:/color/abc_tint_edittext.xml",
+        "source": "ru.innim.flutter_login_facebook-appcompat-1.1.0-5:/color/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "ru.innim.flutter_login_facebook-merged_res-20:/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "ru.innim.flutter_login_facebook-appcompat-1.1.0-5:/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "ru.innim.flutter_login_facebook-merged_res-20:/color/abc_hint_foreground_material_dark.xml",
+        "source": "ru.innim.flutter_login_facebook-appcompat-1.1.0-5:/color/abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "ru.innim.flutter_login_facebook-merged_res-20:/color/switch_thumb_material_dark.xml",
+        "source": "ru.innim.flutter_login_facebook-appcompat-1.1.0-5:/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "ru.innim.flutter_login_facebook-merged_res-20:/color/abc_tint_spinner.xml",
+        "source": "ru.innim.flutter_login_facebook-appcompat-1.1.0-5:/color/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "ru.innim.flutter_login_facebook-merged_res-20:/color/abc_secondary_text_material_light.xml",
+        "source": "ru.innim.flutter_login_facebook-appcompat-1.1.0-5:/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "ru.innim.flutter_login_facebook-merged_res-20:/color/abc_tint_default.xml",
+        "source": "ru.innim.flutter_login_facebook-appcompat-1.1.0-5:/color/abc_tint_default.xml"
+    },
+    {
+        "merged": "ru.innim.flutter_login_facebook-merged_res-20:/color/abc_primary_text_material_dark.xml",
+        "source": "ru.innim.flutter_login_facebook-appcompat-1.1.0-5:/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "ru.innim.flutter_login_facebook-merged_res-20:/color/abc_tint_switch_track.xml",
+        "source": "ru.innim.flutter_login_facebook-appcompat-1.1.0-5:/color/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "ru.innim.flutter_login_facebook-merged_res-20:/color/abc_hint_foreground_material_light.xml",
+        "source": "ru.innim.flutter_login_facebook-appcompat-1.1.0-5:/color/abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "ru.innim.flutter_login_facebook-merged_res-20:/color/abc_btn_colored_text_material.xml",
+        "source": "ru.innim.flutter_login_facebook-appcompat-1.1.0-5:/color/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "ru.innim.flutter_login_facebook-merged_res-20:/color/abc_tint_seek_thumb.xml",
+        "source": "ru.innim.flutter_login_facebook-appcompat-1.1.0-5:/color/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "ru.innim.flutter_login_facebook-merged_res-20:/color/abc_primary_text_material_light.xml",
+        "source": "ru.innim.flutter_login_facebook-appcompat-1.1.0-5:/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "ru.innim.flutter_login_facebook-merged_res-20:/color/abc_search_url_text.xml",
+        "source": "ru.innim.flutter_login_facebook-appcompat-1.1.0-5:/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "ru.innim.flutter_login_facebook-merged_res-20:/color/abc_secondary_text_material_dark.xml",
+        "source": "ru.innim.flutter_login_facebook-appcompat-1.1.0-5:/color/abc_secondary_text_material_dark.xml"
+    }
+]

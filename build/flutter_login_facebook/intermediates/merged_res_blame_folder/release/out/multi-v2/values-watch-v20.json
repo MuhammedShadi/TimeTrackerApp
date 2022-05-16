@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "ru.innim.flutter_login_facebook-merged_res-20:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/Users/gebruiker/.gradle/caches/transforms-3/1a9a9f33fac3f7151d051c99ad87f3e1/transformed/appcompat-1.1.0/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "ru.innim.flutter_login_facebook-mergeReleaseResources-18:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/Users/gebruiker/.gradle/caches/transforms-3/1a9a9f33fac3f7151d051c99ad87f3e1/transformed/appcompat-1.1.0/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

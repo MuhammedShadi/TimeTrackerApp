@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">715291127676-r0c2c9qohkdrufeic2vj11hr3j7s4ll0.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">715291127676</string>
+    <string name="google_api_key" translatable="false">AIzaSyBhbWZpMCFknUPxItMI-BZnMjAKQKATBLA</string>
+    <string name="google_app_id" translatable="false">1:715291127676:android:7acb627051a24a029cfef9</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBhbWZpMCFknUPxItMI-BZnMjAKQKATBLA</string>
+    <string name="google_storage_bucket" translatable="false">time-tracker-a6366.appspot.com</string>
+    <string name="project_id" translatable="false">time-tracker-a6366</string>
+</resources>

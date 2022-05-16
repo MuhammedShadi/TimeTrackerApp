@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.timetracker.app-mergeDebugResources-26:/values-id/values-id.xml",
+            "outputFile": "com.timetracker.motracker.app-mergeDebugResources-26:/values-id/values-id.xml",
             "map": [
                 {
                     "source": "/Users/gebruiker/.gradle/caches/transforms-3/771d67d642ee8047762254a3ea559c5c/transformed/jetified-facebook-common-13.2.0/res/values-id/values-id.xml",

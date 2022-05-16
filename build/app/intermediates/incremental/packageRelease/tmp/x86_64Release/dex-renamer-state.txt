@@ -1,0 +1,4 @@
+#Mon May 16 10:56:36 TRT 2022
+base.0=/Users/gebruiker/Documents/GitHub/TimeTrackerApp/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

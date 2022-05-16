@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.timetracker.app-mergeDebugResources-26:/values-am/values-am.xml",
+            "outputFile": "com.timetracker.motracker.app-mergeDebugResources-26:/values-am/values-am.xml",
             "map": [
                 {
                     "source": "/Users/gebruiker/.gradle/caches/transforms-3/cc0623eba699dd9d1295dd727fcc38bd/transformed/core-1.6.0/res/values-am/values-am.xml",

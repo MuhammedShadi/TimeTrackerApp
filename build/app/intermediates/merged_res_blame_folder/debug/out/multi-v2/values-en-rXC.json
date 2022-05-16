@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.timetracker.app-mergeDebugResources-26:/values-en-rXC/values-en-rXC.xml",
+            "outputFile": "com.timetracker.motracker.app-mergeDebugResources-26:/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
                     "source": "/Users/gebruiker/.gradle/caches/transforms-3/1a9a9f33fac3f7151d051c99ad87f3e1/transformed/appcompat-1.1.0/res/values-en-rXC/values-en-rXC.xml",
