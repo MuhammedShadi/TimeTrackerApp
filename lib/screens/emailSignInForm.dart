@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:timetracker/fireBase/fireBaseMethods.dart';
+import 'package:timetracker/strings/validators.dart';
 import 'package:timetracker/widgets/formSubmitButton.dart';
+
+import '../theme/showAlertDialog.dart';
 
 enum EmailSignInFormType { signIn, register }
 
@@ -12,7 +15,8 @@ class EmailSignInForm extends StatefulWidget {
   State<EmailSignInForm> createState() => _EmailSignInFormState();
 }
 
-class _EmailSignInFormState extends State<EmailSignInForm> {
+class _EmailSignInFormState extends State<EmailSignInForm>
+    with EmailPasswordValidators {
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
   EmailSignInFormType _formType = EmailSignInFormType.signIn;
@@ -32,7 +36,10 @@ class _EmailSignInFormState extends State<EmailSignInForm> {
       }
       Navigator.of(context).pop();
     } catch (e) {
-      print(e.toString());
+      showAlertDialog(context,
+          title: 'Sign in failed',
+          content: e.toString(),
+          defaultActionText: 'OK');
     }
   }
 
@@ -55,6 +62,8 @@ class _EmailSignInFormState extends State<EmailSignInForm> {
   }
 
   List<Widget> _buildChildren() {
+    bool emailValid = emailValidator.isValid(_email);
+    print(emailValid);
     final primaryText = _formType == EmailSignInFormType.signIn
         ? "Sign in"
         : "Create an account";
@@ -100,10 +109,12 @@ class _EmailSignInFormState extends State<EmailSignInForm> {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.all(16.0),
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: _buildChildren(),
+      child: SingleChildScrollView(
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: _buildChildren(),
+        ),
       ),
     );
   }
