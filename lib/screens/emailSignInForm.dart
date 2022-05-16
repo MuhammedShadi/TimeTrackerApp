@@ -16,6 +16,8 @@ class _EmailSignInFormState extends State<EmailSignInForm> {
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
   EmailSignInFormType _formType = EmailSignInFormType.signIn;
+  final FocusNode _emailFocusNode = FocusNode();
+  final FocusNode _passwordFocusNode = FocusNode();
 
   String get _email => _emailController.text;
 
@@ -44,6 +46,14 @@ class _EmailSignInFormState extends State<EmailSignInForm> {
     _passwordController.clear();
   }
 
+  void _emailEditingComplete() {
+    FocusScope.of(context).requestFocus(_passwordFocusNode);
+  }
+
+  void _updateState() {
+    setState(() {});
+  }
+
   List<Widget> _buildChildren() {
     final primaryText = _formType == EmailSignInFormType.signIn
         ? "Sign in"
@@ -54,21 +64,34 @@ class _EmailSignInFormState extends State<EmailSignInForm> {
     return [
       TextField(
         controller: _emailController,
+        focusNode: _emailFocusNode,
         decoration: const InputDecoration(
           labelText: "Email",
           hintText: "test@test.com",
         ),
+        autocorrect: false,
+        keyboardType: TextInputType.emailAddress,
+        textInputAction: TextInputAction.next,
+        onEditingComplete: _emailEditingComplete,
+        onChanged: (email) => _updateState,
       ),
       const SizedBox(height: 8),
       TextField(
         controller: _passwordController,
+        focusNode: _passwordFocusNode,
         decoration: const InputDecoration(
           labelText: "Password",
         ),
         obscureText: true,
+        textInputAction: TextInputAction.done,
+        onEditingComplete: _submit,
+        onChanged: (password) => _updateState,
       ),
       const SizedBox(height: 10),
-      FormSubmitButton(text: primaryText, onPressed: _submit),
+      FormSubmitButton(
+        text: primaryText,
+        onPressed: _submit,
+      ),
       FlatButton(child: Text(secondaryText), onPressed: _toggleFormType),
     ];
   }
